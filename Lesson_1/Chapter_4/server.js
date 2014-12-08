@@ -10,4 +10,7 @@ var server = http.createServer(function (req, res) {
 });
 server.listen(9000, function () {
 	console.log('listening on port 9000');
+	// When you get this:
+	// Error: listen EADDRINUSE
+	// Open localhost:9000 in incognito modus!
 });
